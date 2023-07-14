@@ -38,6 +38,7 @@ p {
   margin: 40px auto 5px;
 }
 .container {
+  margin: 40px auto 5px auto;
   padding: 15px;
   border: 2px solid lightgray;
   border-radius: 6px;
@@ -60,6 +61,12 @@ p {
   top: -45px;
 }
 
+img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
 .active {
   color: grey;
   cursor: default;
@@ -76,5 +83,5 @@ p {
 
 footer {
   font-size: 10px;
-  margin-top: 2px;
+  text-align: left;
 }
