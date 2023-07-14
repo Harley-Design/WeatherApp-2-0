@@ -70,6 +70,10 @@ p {
   color: grey;
 }
 
+.sky {
+  text-transform: capitalize;
+}
+
 footer {
   font-size: 10px;
   margin-top: 2px;

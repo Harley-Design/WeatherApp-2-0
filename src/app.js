@@ -35,7 +35,7 @@ function showWeather(response) {
   document.querySelector("#sky").innerHTML =
     response.data.weather[0].description;
 
-  let iconElement = document.querySelector("#icons-big");
+  let iconElement = document.querySelector("#icon");
   iconElement.setAttribute(
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
