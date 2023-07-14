@@ -5,7 +5,7 @@ p {
 
 h2 {
   font-size: 28px;
-  font-weight: 200;
+  font-weight: 100;
   line-height: 22px;
   margin-bottom: 26px;
 }
@@ -16,13 +16,13 @@ ul {
 p {
   font-size: 14px;
   line-height: 1.3;
-  font-weight: 300;
+  font-weight: 200;
   margin-top: 14px;
 }
 
 .logo {
   display: inline;
-  margin-right: 66px;
+  margin-right: 50px;
 }
 .searchfield {
   font-size: 16px;
