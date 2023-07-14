@@ -60,6 +60,16 @@ p {
   top: -45px;
 }
 
+.active {
+  color: grey;
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
+  color: grey;
+}
+
 footer {
   font-size: 10px;
   margin-top: 2px;
