@@ -1,0 +1,66 @@
+h2,
+p {
+  color: grey;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 200;
+  line-height: 22px;
+  margin-bottom: 26px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 300;
+  margin-top: 14px;
+}
+
+.logo {
+  display: inline;
+  margin-right: 66px;
+}
+.searchfield {
+  font-size: 16px;
+  font-weight: 200;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  background: white;
+  padding: 5px 10px;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 40px auto 5px;
+}
+.container {
+  padding: 15px;
+  border: 2px solid lightgray;
+  border-radius: 6px;
+}
+
+.col-sm-6 {
+  max-height: 230px;
+}
+
+.temperature {
+  color: grey;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.units {
+  color: grey;
+  position: relative;
+  top: -45px;
+}
+
+footer {
+  font-size: 10px;
+  margin-top: 2px;
+}
