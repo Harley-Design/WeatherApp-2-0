@@ -22,7 +22,7 @@ p {
 
 .logo {
   display: inline;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 .searchfield {
   font-size: 16px;
@@ -34,7 +34,8 @@ p {
 }
 
 .wrapper {
-  max-width: 600px;
+  min-width: 535px;
+  max-width: 540px;
   margin: 40px auto 5px;
 }
 .container {
