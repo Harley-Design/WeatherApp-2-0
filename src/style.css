@@ -22,21 +22,21 @@ p {
 
 .temp-max {
   color: grey;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   margin-bottom: 0;
 }
 
 .temp-min {
   color: grey;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 200;
   margin-bottom: 0;
 }
 
 .logo {
   display: inline;
-  margin-right: 18px;
+  margin-right: 48px;
 }
 .searchfield {
   font-size: 16px;
@@ -48,7 +48,7 @@ p {
 }
 
 .wrapper {
-  min-width: 535px;
+  min-width: 565px;
   max-width: 540px;
   margin: 40px auto 5px;
 }
@@ -96,11 +96,7 @@ img {
   text-transform: capitalize;
 }
 
-.forecast-icon {
-  max-width: 70%;
-}
-
-.forecast {
+.weather-forecast {
   text-align: center;
   margin: 0;
 }
