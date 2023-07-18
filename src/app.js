@@ -48,7 +48,7 @@ function displayForecast(response) {
           forecastDay.condition.icon
         }.png" class="img-fluid icon"
               alt="weather icon"
-              width="15px">
+              width="25px">
         <span class="temp-max">
         ${Math.round(
           forecastDay.temperature.maximum
@@ -109,7 +109,9 @@ function handleSubmit(event) {
 
 function searchLocation(position) {
   let apiKey = "32570467ftea5b8bf7b311oaf40fa7a9";
-  let apiUrl = `https://api.shecodes.io/weather/v1/current?lat=${position.coordinates.latitude}&lon=${position.coordinates.longitude}&key=${apiKey}&units=metric`;
+  let latitude = position.coords.latitude;
+  let longitude = position.coords.longitude;
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?lon=${longitude}&lat=${latitude}&key=${apiKey}&units=metric`;
 
   axios.get(apiUrl).then(showWeather);
 }
