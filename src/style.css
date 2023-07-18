@@ -44,6 +44,7 @@ p {
   display: inline;
   margin-right: 48px;
 }
+
 .searchfield {
   font-size: 16px;
   font-weight: 200;
@@ -61,7 +62,7 @@ p {
 .container {
   background-color: white;
   margin: 40px auto 5px auto;
-  padding: 15px 15px 15px 10px;
+  padding: 15px 10px 15px 10px;
   border: 4px solid lightgray;
   border-radius: 6px;
 }
